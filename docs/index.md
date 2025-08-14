@@ -1,4 +1,5 @@
-
+html
+<link rel="stylesheet" href="style.css">
 ---
 layout: default
 title: 傑邦戰術中心
@@ -17,10 +18,11 @@ title: 傑邦戰術中心
 
 ![戰術封面](cover.png)
 ![QR 導引](qr.png)
-<link rel="stylesheet" href="style.css">
+
 <style>
 @import url("style.css");
 </style>
+
 
 
 
