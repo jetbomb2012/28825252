@@ -20,4 +20,7 @@ title: 傑邦戰術中心
 <style>
 @import url("style.css");
 </style>
+<link rel="stylesheet" href="style.css">
+
+
 
