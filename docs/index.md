@@ -1,5 +1,3 @@
-html
-<link rel="stylesheet" href="style.css">
 
 ---
 layout: default
@@ -23,6 +21,7 @@ title: 傑邦戰術中心
 <style>
 @import url("style.css");
 </style>
+
 
 
 
