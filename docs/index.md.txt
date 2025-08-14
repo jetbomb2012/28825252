@@ -1,0 +1,7 @@
+# 0500 空降法戰術入口
+
+![軍事封面](../covers/cover_0500_military.png)
+
+掃描 QR 進入互動戰術頁面：
+
+![QR 圖](../web/qr_0500_hub.png)
