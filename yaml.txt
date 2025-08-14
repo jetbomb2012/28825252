@@ -1,0 +1,5 @@
+title: "傑邦戰術中心"
+description: "軍事幽默科幻混搭 · 0500 空降法"
+baseurl: "" # 如果部署到 GitHub Pages 可改成 "/your-repo-name"
+url: "http://localhost:4000"
+theme: minima
