@@ -1,0 +1,117 @@
+/* 字體導入 */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 容器 */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* 標題 */
+.title {
+  font-size: 54px;
+  letter-spacing: 6px;
+  color: #ff0000;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+/* 圖像 */
+.cover img,
+.image-block img {
+  width: 100%;
+  border: 4px solid #ff0000;
+}
+
+/* 模組區塊 */
+.module-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.module {
+  border: 2px solid #ff0000;
+  padding: 20px;
+  background-color: #111;
+  transition: transform 0.3s;
+}
+
+.module:hover {
+  transform: scale(1.05);
+}
+
+.module-title {
+  font-size: 24px;
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+.module-desc {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+/* 按鈕 */
+.cta {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cta a,
+.module a {
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #ff0000;
+  padding: 12px 24px;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+
+.cta a:hover,
+.module a:hover {
+  background-color: #ff0000;
+  color: #000;
+}
+
+/* 傳說頁 */
+.section-title {
+  font-size: 24px;
+  color: #ff0000;
+  margin-bottom: 20px;
+}
+
+.section-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.quote {
+  font-size: 20px;
+  color: #fff;
+  font-style: italic;
+  margin-top: 20px;
+  border-left: 4px solid #ff0000;
+  padding-left: 16px;
+}
