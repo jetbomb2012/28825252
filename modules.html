@@ -1,54 +1,33 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
-  <title>戰術模組總覽 | Jet-Bomb Tactical</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      background-color: #000;
-      color: #fff;
-      font-family: 'Orbitron', sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      text-align: center;
-      padding: 60px 20px;
-    }
-    .title {
-      font-size: 48px;
-      letter-spacing: 4px;
-      color: #ff0000;
-      margin-bottom: 40px;
-    }
-    .module-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 40px;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-    .module {
-      border: 2px solid #ff0000;
-      padding: 20px;
-      background-color: #111;
-      transition: transform 0.3s;
-    }
-    .module:hover {
-      transform: scale(1.05);
-    }
-    .module-title {
-      font-size: 24px;
-      margin-bottom: 10px;
-      color: #ff0000;
-    }
-    .module-desc {
-      font-size: 16px;
-      margin-bottom: 20px;
-    }
-    .module a {
-      color: #fff;
-      text-decoration: none;
-      border: 2px solid #ff0000;
-      padding
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>模組總覽 | Jet-Bomb</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>模組總覽</h1>
+    <p class="subtitle">每一模組，皆為壓制工具。</p>
+    <nav>
+      <a href="index.html">返回首頁</a>
+    </nav>
+  </header>
+
+  <section class="module-list">
+    <h2>已部署模組</h2>
+    <ul>
+      <li>
+        <a href="counterstrike.html"><strong>反制行動模組</strong></a><br />
+        <span class="module-desc">模組代號：C-Strike｜你還在反應，我已反制。</span>
+      </li>
+      <!-- 可持續新增其他模組 -->
+    </ul>
+  </section>
+
+  <footer>
+    <p>© Jet-Bomb Tactical Command</p>
+  </footer>
+</body>
+</html>
