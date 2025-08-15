@@ -2,51 +2,74 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <title>JET-BOMB 戰術中心</title>
-  <link rel="stylesheet" href="/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jet-Bomb 戰術中心</title>
   <style>
     body {
-      background-color: black;
-      color: #00ffe6;
-      font-family: 'Courier New', monospace;
+      margin: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
       text-align: center;
-      padding: 3em;
     }
-    h1 {
-      font-size: 2.5em;
-      color: #ff0055;
-      margin-bottom: 0.5em;
+    header img {
+      width: 100%;
+      height: auto;
     }
-    .tagline {
-      font-size: 1.2em;
-      margin-bottom: 2em;
-      color: #888;
-    }
-    .module-link {
-      display: block;
-      margin: 1em auto;
-      padding: 1em;
-      width: 300px;
-      background-color: #111;
-      border: 2px solid #00ffe6;
-      color: #00ffe6;
-      text-decoration: none;
+    h1.tagline {
+      font-size: 2em;
+      margin: 20px 0;
       font-weight: bold;
-      transition: 0.2s ease;
     }
-    .module-link:hover {
-      background-color: #00ffe6;
-      color: black;
+    .modules {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 30px 0;
+    }
+    .modules a {
+      border: 2px solid #fff;
+      padding: 10px 20px;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .creed {
+      margin: 40px 20px;
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+    .qr {
+      margin: 40px 0;
+    }
+    .qr img {
+      width: 150px;
+      height: 150px;
     }
   </style>
 </head>
 <body>
-  <h1>JET-BOMB 戰術中心</h1>
-  <div class="tagline">0500空降，不是選項，是信仰。</div>
+  <header>
+    <img src="/assets/images/hero.png" alt="Jet-Bomb Tactical Cover">
+    <h1 class="tagline">進場即壓制，不解釋。</h1>
+  </header>
 
-  <a class="module-link" href="/creed/creed.html">戰術信條模組</a>
-  <a class="module-link" href="/voice/creed.mp3">語音信條模組</a>
-  <a class="module-link" href="/qr/creed.html">QR 展示模組</a>
-  <a class="module-link" href="/tactics/0500.html">0500空降模組</a>
+  <section class="modules">
+    <a href="/modules/0500.html">0500空降法</a>
+    <a href="/modules/psywar.html">心理壓制</a>
+    <a href="/modules/voice.html">語音模組</a>
+    <a href="/modules/creed.html">品牌信仰</a>
+  </section>
+
+  <section class="creed">
+    我不是原創者，我是執行者——最冷、最準、最狠的那一個。
+  </section>
+
+  <section class="qr">
+    <img src="/assets/images/qrcode.png" alt="Jet-Bomb QR Code">
+    <p>掃描即服從</p>
+  </section>
 </body>
 </html>
