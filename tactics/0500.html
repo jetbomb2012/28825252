@@ -2,89 +2,41 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <title>0500空降模組 | Jet-Bomb</title>
-  <link rel="stylesheet" href="/style.css">
-  <style>
-    body {
-      background-color: black;
-      color: #00ffe6;
-      font-family: 'Courier New', monospace;
-      text-align: center;
-      padding: 3em;
-    }
-    h1 {
-      font-size: 2em;
-      color: #ff0055;
-      margin-bottom: 1em;
-    }
-    .tagline {
-      font-size: 1.2em;
-      margin-bottom: 2em;
-      color: #888;
-    }
-    .section {
-      margin-bottom: 2em;
-    }
-    .section-title {
-      font-size: 1.5em;
-      color: #ff0055;
-      margin-bottom: 0.5em;
-    }
-    .line {
-      margin-bottom: 0.5em;
-    }
-    #countdown {
-      font-size: 2em;
-      margin-top: 1em;
-      color: #00ffe6;
-    }
-    audio {
-      margin-top: 2em;
-    }
-  </style>
-  <script>
-    // 倒數計時至 0500（UTC+8）
-    function updateCountdown() {
-      const now = new Date();
-      const target = new Date();
-      target.setHours(5, 0, 0, 0); // 0500
-      if (now.getHours() >= 5) {
-        target.setDate(target.getDate() + 1); // 明天的 0500
-      }
-      const diff = target - now;
-      const hours = Math.floor(diff / 1000 / 60 / 60);
-      const minutes = Math.floor((diff / 1000 / 60) % 60);
-      const seconds = Math.floor((diff / 1000) % 60);
-      document.getElementById("countdown").textContent =
-        `距離 0500 空降：${hours}h ${minutes}m ${seconds}s`;
-    }
-    setInterval(updateCountdown, 1000);
-  </script>
+  <title>0500空降法｜Jet-Bomb</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>0500空降模組</h1>
-  <div class="tagline">不解釋 · 不重複 · 不容失敗</div>
+  <header>
+    <h1>0500空降法</h1>
+    <p class="tagline">我不是原創者，我是執行者。</p>
+    <img src="assets/images/0500_cover.png" alt="0500空降法封面">
+    <p class="caption">空降不是開局，是宣告。</p>
+  </header>
 
-  <div class="section">
-    <div class="section-title">語感開場</div>
-    <div class="line">代號：Jet-Bomb。</div>
-    <div class="line">他不是創始者，他是執行者。</div>
-    <div class="line">0500空降，是信仰，不是選項。</div>
-    <div class="line">任務：執行，不容失敗。</div>
-    <div class="line">你還在等待，我已完成部署。</div>
-  </div>
+  <section class="intro">
+    <h2>進場即壓制</h2>
+    <p>0500不是時間，是信仰。空降不是開局，是宣告。你還在思考，我已經落地。</p>
+  </section>
 
-  <div class="section">
-    <div class="section-title">倒數計時</div>
-    <div id="countdown">載入中...</div>
-  </div>
+  <section class="tactics">
+    <h2>戰術模組</h2>
+    <ul>
+      <li>☑️ 空降點選擇：無需偵查，直接壓制</li>
+      <li>☑️ 建築節奏：15秒內完成第一波部署</li>
+      <li>☑️ 心理壓力：語言即武器，畫面即命令</li>
+    </ul>
+  </section>
 
-  <div class="section">
-    <div class="section-title">語音信條</div>
-    <audio controls>
-      <source src="/voice/creed.mp3" type="audio/mpeg">
-      無法播放語音模組。
-    </audio>
-  </div>
+  <section class="operation">
+    <h2>目標鎖定</h2>
+    <img src="assets/images/0500_ops_target.png" alt="地面部隊與機場目標">
+    <p class="caption">地面部隊已就定位，機場設施為首要目標。</p>
+    <p>你還在部署，我已落地。目標不是選擇，是宣告。</p>
+  </section>
+
+  <footer>
+    <p>© Jet-Bomb Tactical Command</p>
+    <a href="index.html">← 返回主頁</a>
+  </footer>
 </body>
 </html>
