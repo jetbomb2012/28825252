@@ -1,41 +1,24 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <title>Jet-Bomb Tactical Command</title>
-  <style>
-    body {
-      background-color: black;
-      color: white;
-      font-family: 'Courier New', monospace;
-      text-align: center;
-      padding-top: 80px;
-    }
-    h1 {
-      font-size: 36px;
-      margin-bottom: 20px;
-    }
-    p {
-      font-size: 18px;
-      margin-bottom: 40px;
-    }
-    a.button {
-      background-color: red;
-      color: white;
-      padding: 15px 30px;
-      font-size: 20px;
-      text-decoration: none;
-      border-radius: 5px;
-      display: inline-block;
-    }
-    a.button:hover {
-      background-color: darkred;
-    }
-  </style>
+  <title>Jet-Bomb 戰術主頁</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>0500空降法已啟動</h1>
-  <p>Jet-Bomb已部署，語音模組準備壓制。</p>
-  <a href="/jetbomb-voice.html" class="button">▶ 啟動語音壓制模組</a>
+  <header>
+    <h1>0500空降法｜Jet-Bomb 戰術中心</h1>
+  </header>
+
+  <section class="qr-section">
+    <h2>語音壓制已啟動</h2>
+    <p>見代號如見人｜立即掃描進入戰術主頁</p>
+    <img src="assets/images/jetbomb_qr_index.png" alt="Jet-Bomb QR導引圖" width="300">
+    <a href="jetbomb-video.html" class="btn">觀看戰術影片</a>
+  </section>
+
+  <section class="modules">
+    <!-- 原有模組入口保留 -->
+  </section>
 </body>
 </html>
