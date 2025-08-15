@@ -2,7 +2,7 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <title>戰術模組總覽 | Jet-Bomb Tactical</title>
+  <title>Jet-Bomb Tactical Command</title>
   <link rel="stylesheet" href="style.css">
   <style>
     body {
@@ -17,38 +17,56 @@
       padding: 60px 20px;
     }
     .title {
-      font-size: 48px;
-      letter-spacing: 4px;
+      font-size: 54px;
+      letter-spacing: 6px;
       color: #ff0000;
-      margin-bottom: 40px;
-    }
-    .module-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 40px;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-    .module {
-      border: 2px solid #ff0000;
-      padding: 20px;
-      background-color: #111;
-      transition: transform 0.3s;
-    }
-    .module:hover {
-      transform: scale(1.05);
-    }
-    .module-title {
-      font-size: 24px;
-      margin-bottom: 10px;
-      color: #ff0000;
-    }
-    .module-desc {
-      font-size: 16px;
       margin-bottom: 20px;
     }
-    .module a {
+    .subtitle {
+      font-size: 20px;
+      color: #ccc;
+      margin-bottom: 40px;
+    }
+    .cover {
+      max-width: 800px;
+      margin: 0 auto 40px;
+    }
+    .cover img {
+      width: 100%;
+      border: 4px solid #ff0000;
+    }
+    .cta {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+    .cta a {
       color: #fff;
       text-decoration: none;
       border: 2px solid #ff0000;
-      padding
+      padding: 12px 24px;
+      font-size: 18px;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background-color: #ff0000;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">JET-BOMB</div>
+    <div class="subtitle">你還在思考，我已落地。模組不是展示，是壓制。</div>
+    <div class="cover">
+      <img src="assets/images/0500_cover.png" alt="Jet-Bomb Cover">
+    </div>
+    <div class="cta">
+      <a href="modules.html">戰術模組總覽</a>
+      <a href="legend.html">Jet-Bomb 傳說</a>
+    </div>
+  </div>
+</body>
+</html>
