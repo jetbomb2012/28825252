@@ -1,75 +1,48 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JET-BOMB Tactical Command</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jet-Bomb 戰術語音模組</title>
   <style>
-    body, html {
-      margin: 0;
-      padding: 0;
-      height: 100vh;
-      overflow: hidden;
+    body {
+      background-color: #000;
+      color: #0f0;
       font-family: 'Courier New', monospace;
-      background: url('0500_cover.png') no-repeat center center;
-      background-size: cover;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
       text-align: center;
+      padding: 50px;
     }
-
     h1 {
-      font-size: 3em;
-      margin-bottom: 0.2em;
+      font-size: 2em;
+      margin-bottom: 20px;
     }
-
-    h2 {
-      font-size: 1.5em;
-      margin-bottom: 1em;
-      font-weight: normal;
-    }
-
-    .nav-buttons {
-      display: flex;
-      gap: 1em;
-      margin-top: 1em;
-    }
-
-    .nav-buttons a {
-      padding: 0.6em 1.2em;
-      background-color: rgba(0, 0, 0, 0.7);
-      color: #fff;
-      text-decoration: none;
-      border: 1px solid #fff;
-      transition: background 0.3s;
-    }
-
-    .nav-buttons a:hover {
-      background-color: rgba(255, 255, 255, 0.2);
-    }
-
-    .quote {
-      margin-top: 2em;
+    p {
       font-size: 1.2em;
-      font-style: italic;
-      opacity: 0.8;
+      margin-bottom: 30px;
+    }
+    audio {
+      width: 300px;
+      margin-bottom: 20px;
+    }
+    .divider {
+      margin: 40px auto;
+      width: 60%;
+      height: 2px;
+      background-color: #0f0;
     }
   </style>
 </head>
 <body>
-  <h1>JET-BOMB</h1>
-  <h2>你還在思考，我已落地。</h2>
+  <h1>Jet-Bomb 開場語音模組</h1>
+  <p>0500空降法已啟動，無人倖免。</p>
+  <audio controls autoplay>
+    <source src="audio/jetbomb_intro.mp3" type="audio/mpeg">
+    您的瀏覽器不支援語音播放。
+  </audio>
 
-  <div class="nav-buttons">
-    <a href="modules.html">模組總覽</a>
-    <a href="manifest.html">信仰宣言</a>
-    <a href="dropzone_ops.html">DZ-Ops</a>
-  </div>
+  <div class="divider"></div>
 
-  <div class="quote">模組不是展示，是壓制。</div>
+  <p>你是誰，在這做什麼。<br>
+     Jet-Bomb已部署，開始壓制。</p>
 </body>
 </html>
