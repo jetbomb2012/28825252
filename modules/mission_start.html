@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mission Start</title>
+  <style>
+    body { margin: 0; background-color: black; overflow: hidden; }
+    .jetbomb-mission-start { position: relative; width: 100vw; height: 100vh; }
+    object { width: 100%; height: 100%; }
+  </style>
+</head>
+<body>
+  <div class="jetbomb-mission-start">
+    <object type="image/svg+xml" data="assets/mission_intro.svg"></object>
+    <audio autoplay>
+      <source src="assets/audio/cruise-strike.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+  <script>
+    setTimeout(() => {
+      window.location.href = "/tactics.html"; // 可改為你的戰術中心頁面
+    }, 4000);
+  </script>
+</body>
+</html>
