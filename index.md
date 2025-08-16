@@ -11,10 +11,14 @@ title: Jet-Bomb Tactical Command
 </div>
 
 <div style="display:flex; justify-content:center; gap:20px; margin-top:60px;">
-  <img src="/assets/images/drop_tank.jpg" alt="Drop Tank" style="width:30%;">
-  <img src="/assets/images/win_7min.jpg" alt="Win in 7 Minutes" style="width:30%;">
-  <img src="/assets/images/fight_door.jpg" alt="Fight at the Door" style="width:30%;">
+  <img src="/assets/images/drop_tank.jpg" alt="Drop Tank" style="width:30%; cursor:pointer;" onclick="document.getElementById('audio1').play()">
+  <img src="/assets/images/win_7min.jpg" alt="Win in 7 Minutes" style="width:30%; cursor:pointer;" onclick="document.getElementById('audio2').play()">
+  <img src="/assets/images/fight_door.jpg" alt="Fight at the Door" style="width:30%; cursor:pointer;" onclick="document.getElementById('audio3').play()">
 </div>
+
+<audio id="audio1" src="/assets/audio/tank_drop_story.mp3"></audio>
+<audio id="audio2" src="/assets/audio/win_7min_story.mp3"></audio>
+<audio id="audio3" src="/assets/audio/fight_door_story.mp3"></audio>
 
 <audio id="jetbomb-audio" src="/assets/audio/order_or_die_init.mp3"></audio>
 <script>
@@ -31,8 +35,4 @@ title: Jet-Bomb Tactical Command
 
 <div style="text-align:center; margin-top:60px; font-size:0.9em;">
   <p><a href="/tech" style="color:#f00; text-decoration:none;">🛠 技術支援（連到技術文件那兒去搞長篇大論吧）</a></p>
-</div>
-
-<div style="text-align:center; margin-top:40px; font-size:1em; font-weight:bold;">
-  <p>hey guy , order or die</p>
 </div>
