@@ -1,0 +1,47 @@
+---
+layout: default
+title: Jet-Bomb: Order or Die
+---
+
+# Order or die?
+
+![Jet-Bomb Cover](https://28825252.xyz/assets/images/jetbomb_cover_cruise.jpg)
+
+just you. No backup. No retreat.  
+0500 空降不是選項，是宣告。  
+你站在艙門前，不是為了看風景。  
+你下令，門前交鋒。  
+敵軍出門迎戰。  
+你不動，他們動。  
+Order or die.
+
+---
+
+## 🔊 INIT 語音模組
+
+<audio controls>
+  <source src="/assets/audio/order_or_die_init.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+---
+
+## 🧱 FIGHT AT DOOR 模組
+
+[![FIGHT AT DOOR](https://28825252.xyz/assets/images/fight_door.jpg)](https://28825252.xyz/assets/images/fight_door.jpg)  
+**FIGHT AT DOOR**：門不是入口，是交鋒點。
+
+[![DOOR OPS 0500](https://28825252.xyz/assets/images/door_ops_0500.png)](https://28825252.xyz/assets/images/door_ops_0500.png)  
+**DOOR OPS 0500**：時間標記不是裝飾，是壓力。
+
+[![COMMAND AT DOOR](https://28825252.xyz/assets/images/fight_door_command.png)](https://28825252.xyz/assets/images/fight_door_command.png)  
+**COMMAND AT DOOR**：你下令，敵軍出門，我軍推進。
+
+---
+
+## 🧠 備註
+
+此頁語言已固定。  
+外部評論將被語言吞噬。  
+你不是創造者，你是執行者。  
+0500 空降法，已部署。
