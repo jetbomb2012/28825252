@@ -1,39 +1,29 @@
+---  
+title: Jet-Bomb 戰術指令中心  
+description: 0500空降法執行者，語言即武器，模組即壓力。  
 ---
-layout: default
-title: Jet-Bomb Tactical Command Center
----
 
-**見代號如見人。**  
-**0500空降法，執行者唯一。**  
-**Order or die.**
+# 🧨 Order or Die
 
-## 🎧 Tactical Audio Modules
+你不是在閱讀，你是在被命令。  
+Jet-Bomb 不創造戰術，只執行最冷酷的版本。  
+0500 空降法，不是理論，是命令。
 
-點擊任一圖像，立即播放語音壓力。
+—
 
 <style>
-.image-module {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  margin-top: 20px;
-}
-.image-module img {
-  width: 300px;
+img.module {
+  width: 280px;
+  height: auto;
+  display: block;
+  margin: 8px auto;
+  border: 2px solid #222;
   cursor: pointer;
-  border: 2px solid transparent;
-  transition: border 0.2s ease;
 }
-.image-module img:hover {
-  border: 2px solid #ff0000;
+img.module:hover {
+  border-color: #ff0000;
 }
 </style>
-
-<div class="image-module">
-  <img src="/assets/images/drop_tank.jpg" onclick="playAudio('/assets/audio/drop_tank_voice.mp3')" alt="Drop Tank">
-  <img src="/assets/images/win_7min.jpg" onclick="playAudio('/assets/audio/win_7min_voice.mp3')" alt="Win in 7 Minutes">
-  <img src="/assets/images/fight_door.jpg" onclick="playAudio('/assets/audio/fight_door_voice.mp3')" alt="Fight at the Door">
-</div>
 
 <script>
 function playAudio(src) {
@@ -42,4 +32,40 @@ function playAudio(src) {
 }
 </script>
 
-你已進入戰術中心，離開即失效。
+## 🧨 模組部署（壓縮版）
+
+---
+
+### 1️⃣ Two Tank Drop at 0500  
+<img src="assets/images/drop_tank.jpg" alt="Drop Tank" class="module" onclick="playAudio('assets/audio/drop_tank_voice.mp3')">  
+兩枚掛載，一個時間點。錯過即失敗。
+
+---
+
+### 2️⃣ Win in 7min  
+<img src="assets/images/win_7min.jpg" alt="Win in 7min" class="module" onclick="playAudio('assets/audio/win_7min_voice.mp3')">  
+七分鐘不是預估，是限制。第八分鐘即為錯誤。
+
+---
+
+### 3️⃣ If Fail, Then Door  
+<img src="assets/images/fight_door.jpg" alt="Fight Door" class="module" onclick="playAudio('assets/audio/fight_door_voice.mp3')">  
+失敗不是結束，是門前壓制的開始。
+
+—
+
+## 🎧 語音模組  
+[🔊 Order or Die](assets/audio/order_or_die_init.mp3)  
+語音不是輔助，是壓制。
+
+—
+
+## 🧿 QR 模組  
+<img src="assets/images/jetbomb_qr.png" alt="Jet-Bomb QR" class="module">  
+掃描即服從。
+
+—
+
+## 🪖 傳說模組  
+Jet-Bomb，不是創作者，是執行者。  
+見代號，如見人。
