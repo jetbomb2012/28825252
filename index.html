@@ -1,52 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Order or die?</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Jet-Bomb just you. Order or die?">
-  <meta property="og:title" content="Order or die?">
-  <meta property="og:description" content="Jet-Bomb just you. Order or die?">
-  <meta property="og:image" content="https://28825252.xyz/assets/images/jetbomb_cover_cruise.jpg">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jet-Bomb: Order or Die</title>
   <style>
     body {
       background-color: black;
       color: white;
-      font-family: 'Courier New', Courier, monospace;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      overflow: hidden;
+      font-family: monospace;
       text-align: center;
+      padding-top: 20vh;
     }
-    #main-text {
-      font-size: 2em;
-      margin-top: 20px;
-    }
-    img {
-      max-width: 600px;
-      max-height: 80vh;
-      width: auto;
-      border: 2px solid white;
-    }
-    audio {
+    #content {
       display: none;
+      animation: fadeIn 1s ease-in forwards;
+      animation-delay: 3s;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
     }
   </style>
 </head>
 <body>
-  <!-- 封面圖像 -->
-  <img src="/assets/images/jetbomb_cover_cruise.jpg" alt="Jet-Bomb Cover">
-
-  <!-- 語音模組（muted 觸發自動播放） -->
-  <audio autoplay muted>
-    <source src="/assets/audio/order_or_die_init.mp3" type="audio/mpeg">
+  <audio autoplay>
+    <source src="/assets/audio/order_or_die_init.mp3" type="audio/mpeg" />
   </audio>
 
-  <!-- 壓制語言 -->
-  <div id="main-text">just you.<br>Order or die?</div>
+  <div id="content">
+    <h1>Order or die?</h1>
+    <img src="/assets/images/jetbomb_cover_cruise.jpg" alt="Jet-Bomb Cover" width="300" />
+    <p>just you. Order or die?</p>
+  </div>
+
+  <script>
+    setTimeout(() => {
+      document.getElementById('content').style.display = 'block';
+    }, 3000);
+  </script>
 </body>
 </html>
