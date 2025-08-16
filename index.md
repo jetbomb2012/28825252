@@ -9,16 +9,16 @@ title: Jet-Bomb Tactical Command
 
 <div class="image-row">
   <div class="module-block">
-    <img src="assets/images/drop_tank.jpg" alt="Drop Tank" class="module" onclick="playAudio('drop_tank_voice')">
-    <audio id="drop_tank_voice" src="assets/audio/drop_tank_voice.mp3"></audio>
+    <img src="assets/images/drop_tank.jpg" alt="Drop Tank" class="module" onclick="playAudio('tank_drop_story')">
+    <audio id="tank_drop_story" src="assets/audio/tank_drop_story.mp3"></audio>
   </div>
   <div class="module-block">
-    <img src="assets/images/win_7min.jpg" alt="Win in 7min" class="module" onclick="playAudio('win_7min_voice')">
-    <audio id="win_7min_voice" src="assets/audio/win_7min_voice.mp3"></audio>
+    <img src="assets/images/win_7min.jpg" alt="Win in 7min" class="module" onclick="playAudio('win_7min.story')">
+    <audio id="win_7min.story" src="assets/audio/win_7min.story.mp3"></audio>
   </div>
   <div class="module-block">
-    <img src="assets/images/fight_door.jpg" alt="Fight Door" class="module" onclick="playAudio('fight_door_voice')">
-    <audio id="fight_door_voice" src="assets/audio/fight_door_voice.mp3"></audio>
+    <img src="assets/images/fight_door.jpg" alt="Fight Door" class="module" onclick="playAudio('fight_door.story')">
+    <audio id="fight_door.story" src="assets/audio/fight_door.story.mp3"></audio>
   </div>
 </div>
 
