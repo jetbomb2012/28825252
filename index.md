@@ -29,6 +29,10 @@ title: Jet-Bomb Tactical Command
   });
 </script>
 
-<div style="text-align:center; margin-top:80px; font-size:1em; font-weight:bold;">
+<div style="text-align:center; margin-top:60px; font-size:0.9em;">
+  <p><a href="/tech" style="color:#f00; text-decoration:none;">🛠 技術支援（連到技術文件那兒去搞長篇大論吧）</a></p>
+</div>
+
+<div style="text-align:center; margin-top:40px; font-size:1em; font-weight:bold;">
   <p>hey guy , order or die</p>
 </div>
