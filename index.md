@@ -3,27 +3,25 @@ layout: default
 title: Jet-Bomb 戰術中心
 ---
 
-# 星海爭霸中的 0500 空降法
+# 0500 空降法
 
-0500 空降法不是理論，是執行。  
-這是一種在《星海爭霸 II》中，由 Terran 玩家於 5:00 時標準時間點發動的空投突襲戰術。  
-Jet-Bomb 並非創始者，但已成為最冷酷、最穩定的執行者。  
-每一次部署，都是一次心理壓力測試。
-
----
-
-## 🧨 戰術模組結構
-
-- **時間鎖定**：5:00 空投啟動，無誤差
-- **雙人模組**：雙 Medivac + Marines + Widow Mine
-- **路線設計**：避開雷達，直達主礦或科技區
-- **語音導入**：掃描即命令，語音即壓力
-- **QR 模組**：掃描前即被鎖定，掃描後無退路
-- **封面語言**：Tom Cruise 模式啟動，你是他的一部分
+這不是理論，是執行。  
+0500 空降法是一種冷酷、精準、無退路的戰術模組。  
+每一個模組都是一次心理壓力測試，每一個部署都是一次記憶封鎖。
 
 ---
 
-## 🎥 模組展示
+## 🖼️ 戰術圖像模組
+
+<div style="display: flex; gap: 10px;">
+  <img src="/assets/images/drop_tank.jpg" alt="Drop Tank" width="32%">
+  <img src="/assets/images/win_7min.jpg" alt="Win in 7 Minutes" width="32%">
+  <img src="/assets/images/fight_door.jpg" alt="Fight at the Door" width="32%">
+</div>
+
+---
+
+## 🎥 模組展示影片
 
 <video controls width="100%" poster="/assets/images/drop_tank.jpg">
   <source src="/assets/video/jetbomb_0500_duo.mp4" type="video/mp4">
@@ -32,15 +30,15 @@ Jet-Bomb 並非創始者，但已成為最冷酷、最穩定的執行者。
 
 ---
 
-## 🔊 語音模組
+## 🧠 心理壓力語言
 
-<audio autoplay>
-  <source src="/assets/audio/qr_duo_voice.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+- Order or die.  
+- 你不是在選擇，你是在被鎖定。  
+- 模組已啟動，你的退路已被刪除。
 
 ---
 
-## 📱 QR 模組語言
+## 🪖 結語
 
-**掃描前語言：**
+這不是一個頁面，這是一個戰術中心。  
+你不是在觀看，你是在被執行。
