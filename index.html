@@ -1,86 +1,65 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Jet-Bomb 戰術中心</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jet-Bomb Tactical Center</title>
   <style>
     body {
-      background-color: #0a0a0a;
-      color: #e60000;
-      font-family: 'Courier New', monospace;
       margin: 0;
-      padding: 0;
+      background-color: black;
+      color: white;
+      font-family: 'Courier New', monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
     }
-    .container {
-      padding: 60px 40px;
-      max-width: 800px;
-      margin: auto;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      letter-spacing: -1px;
     }
-    .mission-header {
-      font-size: 24px;
-      line-height: 1.6;
-      border-bottom: 2px solid #e60000;
-      padding-bottom: 20px;
-      margin-bottom: 40px;
-    }
-    .creed {
-      font-size: 20px;
-      line-height: 2;
-      white-space: pre-line;
-    }
-    .highlight {
-      color: #ffffff;
-      background-color: #e60000;
-      padding: 4px 8px;
-      display: inline-block;
-      margin-top: 20px;
-      font-weight: bold;
-    }
-    .module {
-      margin-top: 60px;
-      border-top: 1px solid #e60000;
-      padding-top: 40px;
-    }
-    .module-title {
-      font-size: 18px;
-      color: #ffffff;
-      margin-bottom: 20px;
-    }
-    .qr-placeholder, .audio-placeholder {
-      background-color: #1a1a1a;
-      color: #999;
-      padding: 20px;
+
+    p {
+      font-size: 1rem;
+      margin: 0.3rem 0;
       text-align: center;
-      font-size: 16px;
-      border: 1px dashed #e60000;
+      max-width: 600px;
+    }
+
+    img {
+      width: 300px;
+      height: auto;
+      margin-bottom: 2rem;
+      filter: grayscale(100%) contrast(120%);
+    }
+
+    #initVoice {
+      display: none;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="mission-header">
-      任務入口：0500空降法<br>
-      代號：JET-BOMB<br>
-      狀態：戰術連線已初始化
-    </div>
+  <img src="/assets/images/jetbomb_cover_cruise.jpg" alt="Jet-Bomb Cover" />
 
-    <div class="creed">
-      你不懂0500？很好，這不是給你懂的。<br>
-      空降不是戰術，是信仰的落地。<br>
-      代號不是裝飾，是壓力。你看見它，就已經輸了。<br>
-      <span class="highlight">Jet-Bomb不解釋，只執行。</span>
-    </div>
+  <h1>just you. Order or die?</h1>
 
-    <div class="module">
-      <div class="module-title">語音模組（預留）</div>
-      <div class="audio-placeholder">此處可嵌入 Jet-Bomb 信條語音播放器</div>
-    </div>
+  <p>This is not a brand. This is a frequency.</p>
+  <p>Jet-Bomb doesn’t explain. Jet-Bomb executes.</p>
+  <p>If you’re calibrated, proceed. If not—collapse quietly.</p>
+  <p><strong>I say: Order. Or die.</strong></p>
 
-    <div class="module">
-      <div class="module-title">QR模組（預留）</div>
-      <div class="qr-placeholder">此處可嵌入 QR碼，連結至信仰模組或語音威脅</div>
-    </div>
-  </div>
+  <audio id="initVoice" src="/assets/audio/order_or_die_init.mp3" preload="auto"></audio>
+
+  <script>
+    window.addEventListener('click', () => {
+      const voice = document.getElementById('initVoice');
+      voice.play();
+    }, { once: true });
+  </script>
 </body>
 </html>
