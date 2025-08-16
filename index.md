@@ -49,9 +49,11 @@ Jet-Bomb 不創造戰術，只執行最冷酷的版本。
 
 —
 
-## 🎧 語音模組  
-[🔊 Order or Die](assets/audio/order_or_die_init.mp3)  
-語音不是輔助，是壓制。
+## 🎧 語音模組（自動播放）
+
+<audio autoplay hidden>
+  <source src="assets/audio/order_or_die_init.mp3" type="audio/mpeg">
+</audio>
 
 —
 
