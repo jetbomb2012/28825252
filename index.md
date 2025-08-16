@@ -1,3 +1,5 @@
+<p class="tactical-header">星海爭霸0500戰術，聽命或被殺？</p>
+
 <div class="image-row">
   <div class="module-block">
     <img src="assets/images/drop_tank.jpg" alt="Drop Tank" class="module" onclick="document.getElementById('voice1').play()">
@@ -17,6 +19,14 @@
 </div>
 
 <style>
+.tactical-header {
+  font-size: 18px;
+  color: #ff0000;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 .image-row {
   display: flex;
   justify-content: center;
