@@ -1,43 +1,45 @@
 ---
 layout: default
-title: Jet-Bomb Tactical Command
+title: Jet-Bomb Tactical Command Center
 ---
-
-# 🧠 Jet-Bomb Tactical Command Center
 
 **見代號如見人。**  
 **0500空降法，執行者唯一。**  
 **Order or die.**
 
----
-
 ## 🎧 Tactical Audio Modules
 
 點擊任一圖像，立即播放語音壓力。
 
-<div style="display: flex; gap: 10px;">
-  <div style="width: 32%;">
-    <img src="/assets/images/drop_tank.jpg" alt="Drop Tank" width="100%" onclick="document.getElementById('audio1').currentTime=0;document.getElementById('audio1').play();">
-    <audio id="audio1">
-      <source src="/assets/audio/drop_tank_voice.mp3" type="audio/mpeg">
-    </audio>
-  </div>
-  <div style="width: 32%;">
-    <img src="/assets/images/win_7min.jpg" alt="Win in 7 Minutes" width="100%" onclick="document.getElementById('audio2').currentTime=0;document.getElementById('audio2').play();">
-    <audio id="audio2">
-      <source src="/assets/audio/win_7min_voice.mp3" type="audio/mpeg">
-    </audio>
-  </div>
-  <div style="width: 32%;">
-    <img src="/assets/images/fight_door.jpg" alt="Fight at the Door" width="100%" onclick="document.getElementById('audio3').currentTime=0;document.getElementById('audio3').play();">
-    <audio id="audio3">
-      <source src="/assets/audio/fight_door_voice.mp3" type="audio/mpeg">
-    </audio>
-  </div>
+<style>
+.image-module {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.image-module img {
+  width: 300px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border 0.2s ease;
+}
+.image-module img:hover {
+  border: 2px solid #ff0000;
+}
+</style>
+
+<div class="image-module">
+  <img src="/assets/images/drop_tank.jpg" onclick="playAudio('/assets/audio/drop_tank_voice.mp3')" alt="Drop Tank">
+  <img src="/assets/images/win_7min.jpg" onclick="playAudio('/assets/audio/win_7min_voice.mp3')" alt="Win in 7 Minutes">
+  <img src="/assets/images/fight_door.jpg" onclick="playAudio('/assets/audio/fight_door_voice.mp3')" alt="Fight at the Door">
 </div>
 
----
+<script>
+function playAudio(src) {
+  const audio = new Audio(src);
+  audio.play();
+}
+</script>
 
-## 🧬 Deployment Modules
-
-- 🔗 [QR Code Access](/
+你已進入戰術中心，離開即失效。
