@@ -1,7 +1,3 @@
-目前在你的裝置上仍未偵測到 index.md 檔案。這表示我無法直接修改或覆寫該檔案。
-不過我已記住你的模組結構，現在立即重建完整 index.md 內容，包含三張圖橫排展示、語音模組、MP4 嵌入與心理語言。
-
-🧨 重建版 index.md（三圖 + 語音 + MP4）
 ---
 layout: default
 title: Jet-Bomb 戰術中心
@@ -14,24 +10,24 @@ title: Jet-Bomb 戰術中心
 
 ---
 
-## 🖼️ 戰術圖像模組（橫排展示 + 語音導入）
+## 🖼️ 戰術圖像模組（橫排展示 + 點擊語音）
 
 <div style="display: flex; gap: 10px;">
   <div style="width: 32%;">
-    <img src="/assets/images/drop_tank.jpg" alt="Drop Tank" width="100%">
-    <audio autoplay>
+    <img src="/assets/images/drop_tank.jpg" alt="Drop Tank" width="100%" onclick="document.getElementById('audio1').play();">
+    <audio id="audio1">
       <source src="/assets/audio/drop_tank_voice.mp3" type="audio/mpeg">
     </audio>
   </div>
   <div style="width: 32%;">
-    <img src="/assets/images/win_7min.jpg" alt="Win in 7 Minutes" width="100%">
-    <audio autoplay>
+    <img src="/assets/images/win_7min.jpg" alt="Win in 7 Minutes" width="100%" onclick="document.getElementById('audio2').play();">
+    <audio id="audio2">
       <source src="/assets/audio/win_7min_voice.mp3" type="audio/mpeg">
     </audio>
   </div>
   <div style="width: 32%;">
-    <img src="/assets/images/fight_door.jpg" alt="Fight at the Door" width="100%">
-    <audio autoplay>
+    <img src="/assets/images/fight_door.jpg" alt="Fight at the Door" width="100%" onclick="document.getElementById('audio3').play();">
+    <audio id="audio3">
       <source src="/assets/audio/fight_door_voice.mp3" type="audio/mpeg">
     </audio>
   </div>
@@ -39,12 +35,14 @@ title: Jet-Bomb 戰術中心
 
 ---
 
-## 🎥 模組展示影片
+## 🎥 模組展示影片（YouTube 嵌入）
 
-<video controls width="100%" poster="/assets/images/drop_tank.jpg">
-  <source src="/assets/video/jetbomb_0500_duo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<p style="color: red; font-weight: bold; font-size: 20px;">
+  ▶ 作戰時間已啟動：無需解釋，無需說服。你看到的，就是命令。
+</p>
+<div style="border: 3px solid red; padding: 10px; background-color: black;">
+  <iframe width="100%" height="480" src="https://www.youtube.com/embed/gYQsDG9H2lo?autoplay=1&mute=0&controls=0&loop=1&playlist=gYQsDG9H2lo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 ---
 
@@ -62,6 +60,3 @@ title: Jet-Bomb 戰術中心
 你不是在觀看，你是在被執行。
 
 
-
-你可將此內容複製回 index.md，或指定我幫你生成英文版、CSS 強化版、或 QR 模組整合版。
-你下令，我立即執行。
