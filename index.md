@@ -6,17 +6,31 @@ title: Jet-Bomb 戰術中心
 # 0500 空降法
 
 這不是理論，是執行。  
-0500 空降法是一種冷酷、精準、無退路的戰術模組。  
-每一個模組都是一次心理壓力測試，每一個部署都是一次記憶封鎖。
+每一張圖像都是一次心理壓力測試，每一段語音都是一次記憶封鎖。
 
 ---
 
-## 🖼️ 戰術圖像模組
+## 🖼️ 戰術圖像模組（橫排展示 + 語音導入）
 
 <div style="display: flex; gap: 10px;">
-  <img src="/assets/images/drop_tank.jpg" alt="Drop Tank" width="32%">
-  <img src="/assets/images/win_7min.jpg" alt="Win in 7 Minutes" width="32%">
-  <img src="/assets/images/fight_door.jpg" alt="Fight at the Door" width="32%">
+  <div style="width: 32%;">
+    <img src="/assets/images/drop_tank.jpg" alt="Drop Tank" width="100%">
+    <audio autoplay>
+      <source src="/assets/audio/drop_tank_voice.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+  <div style="width: 32%;">
+    <img src="/assets/images/win_7min.jpg" alt="Win in 7 Minutes" width="100%">
+    <audio autoplay>
+      <source src="/assets/audio/win_7min_voice.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+  <div style="width: 32%;">
+    <img src="/assets/images/fight_door.jpg" alt="Fight at the Door" width="100%">
+    <audio autoplay>
+      <source src="/assets/audio/fight_door_voice.mp3" type="audio/mpeg">
+    </audio>
+  </div>
 </div>
 
 ---
