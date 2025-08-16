@@ -1,73 +1,11 @@
----
-title: Jet-Bomb 戰術指令中心
-description: 0500空降法執行者，語言即武器，模組即壓力。
----
-
-# 🧨 Order or Die
-
-你不是在閱讀，你是在被命令。  
-這裡不是首頁，這是壓制起點。  
-Jet-Bomb 不創造戰術，只執行最冷酷的版本。  
-0500 空降法，不是理論，是命令。
-
-—
 
 ## ⏳ 三階段空降模組
 
-[![Drop Tank 補給](assets/images/drop_tank.jpg)](/droptank)  
+[![Drop Tank 補給](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Drop_tank_of_F-86D_%2820810094306%29.jpg/800px-Drop_tank_of_F-86D_%2820810094306%29.jpg)](https://en.wikipedia.org/wiki/Drop_tank)  
 補給不是準備，是威脅。你看見它，就該開始倒數。
 
-[![門前壓制](assets/images/fight_door.jpg)](/doorfight)  
+[![門前壓制](https://m.media-amazon.com/images/I/71ZzvEihZDL._AC_SL1500_.jpg)](https://www.amazon.com/Background-Decorations-Awareness-Supplies-Backdrop/dp/B0B3Q4VMR7)  
 門不是入口，是壓制點。你不是進攻，你是降臨。
 
-[![七分鐘勝利](assets/images/win_7min.png)](/doorwin)  
+[![七分鐘勝利](https://img.youtube.com/vi/3j6GRH_ohwg/maxresdefault.jpg)](https://www.youtube.com/watch?v=3j6GRH_ohwg)  
 勝利不是結果，是時間限制。七分鐘內，否則你不是 Jet-Bomb。
-
-—
-
-## 🧠 技術專區（獨立模組）
-
-[![0500空降技術解構](assets/images/door_ops_0500.png)](/doorops)  
-這不是教學，是解剖。0500空降法的骨架、血肉、壓力源。
-
-—
-
-## 🎧 語音模組
-
-[🔊 Order or Die](assets/audio/order_or_die_init.mp3)  
-語音不是輔助，是壓制。你聽見它，就該執行。
-
-—
-
-## 🧿 QR 模組
-
-![Jet-Bomb QR](assets/images/jetbomb_qr.png)  
-掃描不是連結，是召喚。你掃它，就該服從。
-
-—
-
-## 🪖 傳說模組
-
-你不是在看一個人，你在看一個代號。  
-Jet-Bomb，不是創作者，是執行者。  
-見代號，如見人。
-
-—
-
-[![FIGHT AT DOOR](https://28825252.xyz/assets/images/fight_door.jpg)](https://28825252.xyz/assets/images/fight_door.jpg)  
-**FIGHT AT DOOR**：門不是入口，是交鋒點。
-
-[![DOOR OPS 0500](https://28825252.xyz/assets/images/door_ops_0500.png)](https://28825252.xyz/assets/images/door_ops_0500.png)  
-**DOOR OPS 0500**：時間標記不是裝飾，是壓力。
-
-[![COMMAND AT DOOR](https://28825252.xyz/assets/images/fight_door_command.png)](https://28825252.xyz/assets/images/fight_door_command.png)  
-**COMMAND AT DOOR**：你下令，敵軍出門，我軍推進。
-
----
-
-## 🧠 備註
-
-此頁語言已固定。  
-外部評論將被語言吞噬。  
-你不是創造者，你是執行者。  
-0500 空降法，已部署。
