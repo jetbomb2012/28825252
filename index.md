@@ -22,6 +22,7 @@
   justify-content: center;
   gap: 20px;
   margin: 30px 0;
+  flex-wrap: wrap;
 }
 .module-block {
   display: flex;
@@ -30,6 +31,7 @@
 }
 img.module {
   width: 280px;
+  max-width: 45vw;
   height: auto;
   border: 2px solid #222;
   cursor: pointer;
