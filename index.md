@@ -5,13 +5,13 @@
     <p class="voice-hint">點擊聽命：空投不是選擇，是命令。</p>
   </div>
   <div class="module-block">
-    <img src="assets/images/win_7min.jpg" alt="Win in 7min" class="module" onclick="playAudio('win_7min.story')">
-    <audio id="win_7min.story" src="assets/audio/win_7min.story.mp3"></audio>
+    <img src="assets/images/win_7min.jpg" alt="Win in 7min" class="module" onclick="playAudio('win_7min_story')">
+    <audio id="win_7min_story" src="assets/audio/win_7min.story.mp3"></audio>
     <p class="voice-hint">點擊聽命：七分鐘不是預估，是限制。</p>
   </div>
   <div class="module-block">
-    <img src="assets/images/fight_door.jpg" alt="Fight Door" class="module" onclick="playAudio('fight_door.story')">
-    <audio id="fight_door.story" src="assets/audio/fight_door.story.mp3"></audio>
+    <img src="assets/images/fight_door.jpg" alt="Fight Door" class="module" onclick="playAudio('fight_door_story')">
+    <audio id="fight_door_story" src="assets/audio/fight_door.story.mp3"></audio>
     <p class="voice-hint">點擊聽命：門不是防線，是壓制起點。</p>
   </div>
 </div>
