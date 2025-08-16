@@ -10,28 +10,38 @@ title: Jet-Bomb 戰術中心
 
 ---
 
-## 🖼️ 戰術圖像模組（橫排展示 + 點擊語音）
+## 🖼️ 戰術圖像模組（點擊播放語音）
 
 <div style="display: flex; gap: 10px;">
   <div style="width: 32%;">
-    <img src="/assets/images/drop_tank.jpg" alt="Drop Tank" width="100%" onclick="document.getElementById('audio1').play();">
+    <img src="/assets/images/drop_tank.jpg" alt="Drop Tank" width="100%" onclick="playAudio('audio1')">
     <audio id="audio1">
       <source src="/assets/audio/drop_tank_voice.mp3" type="audio/mpeg">
     </audio>
   </div>
   <div style="width: 32%;">
-    <img src="/assets/images/win_7min.jpg" alt="Win in 7 Minutes" width="100%" onclick="document.getElementById('audio2').play();">
+    <img src="/assets/images/win_7min.jpg" alt="Win in 7 Minutes" width="100%" onclick="playAudio('audio2')">
     <audio id="audio2">
       <source src="/assets/audio/win_7min_voice.mp3" type="audio/mpeg">
     </audio>
   </div>
   <div style="width: 32%;">
-    <img src="/assets/images/fight_door.jpg" alt="Fight at the Door" width="100%" onclick="document.getElementById('audio3').play();">
+    <img src="/assets/images/fight_door.jpg" alt="Fight at the Door" width="100%" onclick="playAudio('audio3')">
     <audio id="audio3">
       <source src="/assets/audio/fight_door_voice.mp3" type="audio/mpeg">
     </audio>
   </div>
 </div>
+
+<script>
+  function playAudio(id) {
+    const audio = document.getElementById(id);
+    if (audio) {
+      audio.currentTime = 0;
+      audio.play();
+    }
+  }
+</script>
 
 ---
 
