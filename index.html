@@ -10,17 +10,22 @@
       color: white;
       font-family: 'Courier New', Courier, monospace;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
       margin: 0;
       overflow: hidden;
+      text-align: center;
     }
     #main-text {
       font-size: 2em;
-      text-align: center;
-      opacity: 0;
-      transition: opacity 0.5s ease-in;
+      margin-top: 20px;
+    }
+    img {
+      max-width: 600px;
+      width: 100%;
+      border: 2px solid white;
     }
     audio {
       display: none;
@@ -28,17 +33,15 @@
   </style>
 </head>
 <body>
-  <audio autoplay>
+  <!-- 封面圖像 -->
+  <img src="/assets/images/jetbomb_cover_cruise.jpg" alt="Jet-Bomb Cover">
+
+  <!-- 語音模組（muted 觸發自動播放） -->
+  <audio autoplay muted>
     <source src="/assets/audio/order_or_die_init.mp3" type="audio/mpeg">
   </audio>
 
+  <!-- 壓制語言 -->
   <div id="main-text">just you.<br>Order or die?</div>
-
-  <script>
-    // 延遲文字出現以同步語音
-    setTimeout(() => {
-      document.getElementById("main-text").style.opacity = 1;
-    }, 500); // 可調整延遲時間（毫秒）
-  </script>
 </body>
 </html>
