@@ -1,18 +1,18 @@
 <div class="image-row">
   <div class="module-block">
-    <img src="assets/images/drop_tank.jpg" alt="Drop Tank" class="module" onclick="document.getElementById('audio1').play()">
+    <img src="assets/images/drop_tank.jpg" alt="Drop Tank" class="module" onclick="document.getElementById('voice1').play()">
     <p class="voice-hint">點擊聽命：空投不是選擇，是命令。</p>
-    <audio id="audio1" src="assets/audio/tank_drop_story.mp3"></audio>
+    <audio id="voice1" src="assets/audio/tank_drop_story.mp3"></audio>
   </div>
   <div class="module-block">
-    <img src="assets/images/win_7min.jpg" alt="Win in 7min" class="module" onclick="document.getElementById('audio2').play()">
+    <img src="assets/images/win_7min.jpg" alt="Win in 7min" class="module" onclick="document.getElementById('voice2').play()">
     <p class="voice-hint">點擊聽命：七分鐘不是預估，是限制。</p>
-    <audio id="audio2" src="assets/audio/win_7min.story.mp3"></audio>
+    <audio id="voice2" src="assets/audio/win_7min_story.mp3"></audio>
   </div>
   <div class="module-block">
-    <img src="assets/images/fight_door.jpg" alt="Fight Door" class="module" onclick="document.getElementById('audio3').play()">
+    <img src="assets/images/fight_door.jpg" alt="Fight Door" class="module" onclick="document.getElementById('voice3').play()">
     <p class="voice-hint">點擊聽命：門不是防線，是壓制起點。</p>
-    <audio id="audio3" src="assets/audio/fight_door.story.mp3"></audio>
+    <audio id="voice3" src="assets/audio/fight_door_story.mp3"></audio>
   </div>
 </div>
 
@@ -28,11 +28,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 32%;
+  max-width: 180px;
 }
 img.module {
   width: 100%;
-  max-width: 240px;
   height: auto;
   border: 2px solid #222;
   cursor: pointer;
