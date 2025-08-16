@@ -15,22 +15,24 @@ Jet-Bomb 不創造戰術，只執行最冷酷的版本。
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
+  gap: 8px;
   margin: 12px 0;
+  justify-items: center;
 }
 .grid img {
-  width: 180px;
+  width: 140px;
   height: auto;
   border: 2px solid #222;
 }
 .module-caption {
   text-align: center;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   margin-top: 4px;
+  line-height: 1.2;
 }
 </style>
 
-## 🧨 模組部署（橫向壓制）
+## 🧨 模組部署（戰術陣列）
 
 <div class="grid">
   <div>
@@ -49,16 +51,25 @@ Jet-Bomb 不創造戰術，只執行最冷酷的版本。
 
 —
 
-## 🎧 語音模組（自動播放）
+## 🎧 語音模組（強制播放）
 
-<audio autoplay hidden>
-  <source src="assets/audio/order_or_die_init.mp3" type="audio/mpeg">
-</audio>
+<audio id="jetbomb-audio" src="assets/audio/order_or_die_init.mp3"></audio>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const audio = document.getElementById('jetbomb-audio');
+    const playPromise = audio.play();
+    if (playPromise !== undefined) {
+      playPromise.catch(() => {
+        document.body.addEventListener('click', () => audio.play(), { once: true });
+      });
+    }
+  });
+</script>
 
 —
 
 ## 🧿 QR 模組  
-<img src="assets/images/jetbomb_qr.png" alt="Jet-Bomb QR" style="width:140px; display:block; margin:8px auto;">  
+<img src="assets/images/jetbomb_qr.png" alt="Jet-Bomb QR" style="width:120px; display:block; margin:8px auto;">  
 掃描即服從。
 
 —
