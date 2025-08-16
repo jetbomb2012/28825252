@@ -5,6 +5,7 @@ title: Jet-Bomb Tactical Command
 
 <div style="text-align:center; margin-top:80px;">
   <h1>0500空降法：唯一執行者</h1>
+  <p>hey baster , order or die ?</p>
   <p>見代號，如見人。</p>
   <p>你不是在瀏覽，你是在被壓制。</p>
 </div>
@@ -27,3 +28,7 @@ title: Jet-Bomb Tactical Command
     }
   });
 </script>
+
+<div style="text-align:center; margin-top:80px; font-size:1em; font-weight:bold;">
+  <p>hey guy , order or die</p>
+</div>
