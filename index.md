@@ -1,65 +1,4 @@
-<!-- 🔥 固定浮貼：雷庭（左）與燄影（右） -->
-<style>
-.fixed-witness {
-  position: fixed;
-  top: 80px;
-  width: 180px;
-  z-index: 999;
-  text-align: center;
-}
-.fixed-left { left: 0; }
-.fixed-right { right: 0; }
-
-.voice-button {
-  margin-top: 8px;
-  font-size: 18px;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-.speech-bubble {
-  margin-top: 6px;
-  font-size: 14px;
-  color: #ff0000;
-  font-weight: bold;
-  background: #fff0f0;
-  padding: 6px;
-  border-radius: 6px;
-  box-shadow: 0 0 6px rgba(0,0,0,0.2);
-}
-</style>
-
-<!-- 左側：雷庭 -->
-<div class="fixed-witness fixed-left">
-  <lottie-player src="assets/animations/leiting_motion.json"
-                 background="transparent"
-                 speed="1"
-                 style="width: 180px; height: 400px;"
-                 loop autoplay>
-  </lottie-player>
-  <audio id="voice-leiting" src="assets/audio/lei-ting.mp3"></audio>
-  <button onclick="document.getElementById('voice-leiting').play()" class="voice-button">🔊</button>
-  <div class="speech-bubble">「0500, 不是時間, 是信仰」<br>「命令不需解釋, 執行才是語言」</div>
-</div>
-
-<!-- 右側：燄影 -->
-<div class="fixed-witness fixed-right">
-  <lottie-player src="assets/animations/yanying_motion.json"
-                 background="transparent"
-                 speed="1"
-                 style="width: 180px; height: 400px;"
-                 loop autoplay>
-  </lottie-player>
-  <audio id="voice-yanying" src="assets/audio/yan-ying.mp3"></audio>
-  <button onclick="document.getElementById('voice-yanying').play()" class="voice-button">🔊</button>
-  <div class="speech-bubble">「見代號, 如見人」<br>「你不是在看立牌, 你在被審問」</div>
-</div>
-
-<!-- 🔻戰術語言模組 -->
 <p class="tactical-header">星海爭霸0500戰術，聽命或被殺？</p>
-<p class="tactical-header">傑邦就是JET-BOMB</p>
-<p class="tactical-header">星海爭霸誰最能打,是Serral？</p>
 
 <div class="image-row">
   <div class="module-block">
@@ -79,7 +18,6 @@
   </div>
 </div>
 
-<!-- 🔧 原CSS樣式保留 -->
 <style>
 .tactical-header {
   font-size: 18px;
@@ -88,6 +26,7 @@
   font-weight: bold;
   margin-bottom: 20px;
 }
+
 .image-row {
   display: flex;
   justify-content: center;
@@ -127,6 +66,3 @@ img.module:hover {
   }
 }
 </style>
-
-<!-- 🔧 引入 Lottie 播放器 -->
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
