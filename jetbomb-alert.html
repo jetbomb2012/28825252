@@ -23,10 +23,7 @@
       color: red;
       font-weight: bold;
     }
-    .qr {
-      margin-top: 40px;
-    }
-    .cover {
+    .qr, .cover {
       margin-top: 40px;
     }
   </style>
@@ -44,7 +41,6 @@
   </p>
 
   <div class="cover">
-    <!-- 封面圖佔位：可替換為你的封面圖 -->
     <img src="cover-jetbomb.jpg" alt="JET-BOMB 封面" width="400">
   </div>
 
@@ -57,6 +53,23 @@
     <source src="jetbomb-alert.mp3" type="audio/mpeg">
     您的瀏覽器不支援音訊播放。
   </audio>
+
+  <!-- ✅ 版本檢測與自動刷新模組 -->
+  <script>
+    const localVersion = localStorage.getItem("jetbomb-version");
+    fetch("version.json?" + Date.now(), { cache: "no-store" })
+      .then(res => res.json())
+      .then(data => {
+        const latestVersion = data.version;
+        if (localVersion && localVersion !== latestVersion) {
+          alert("⚠ 模組已更新，請刷新以獲得最新壓力。");
+          localStorage.setItem("jetbomb-version", latestVersion);
+          location.reload();
+        } else {
+          localStorage.setItem("jetbomb-version", latestVersion);
+        }
+      });
+  </script>
 
 </body>
 </html>
