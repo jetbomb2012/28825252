@@ -1,0 +1,31 @@
+<!-- jetbomb-alert.html -->
+<div class="jetbomb-alert">
+  <lottie-player
+    src="jetbomb_alert.json"
+    background="transparent"
+    speed="1"
+    autoplay
+    style="width: 100%; height: 100%;">
+  </lottie-player>
+
+  <audio src="jetbomb_sequence_with_voice.wav" autoplay></audio>
+</div>
+
+<style>
+.jetbomb-alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: black;
+  animation: flash-bg 0.5s infinite;
+}
+
+@keyframes flash-bg {
+  0%   { background-color: #330000; }
+  50%  { background-color: #990000; }
+  100% { background-color: #330000; }
+}
+</style>
