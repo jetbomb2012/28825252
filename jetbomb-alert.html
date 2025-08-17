@@ -1,31 +1,62 @@
-<!-- jetbomb-alert.html -->
-<div class="jetbomb-alert">
-  <lottie-player
-    src="jetbomb_alert.json"
-    background="transparent"
-    speed="1"
-    autoplay
-    style="width: 100%; height: 100%;">
-  </lottie-player>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>JET-BOMB ALERT</title>
+  <style>
+    body {
+      background-color: black;
+      color: #00FF00;
+      font-family: 'Courier New', monospace;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 24px;
+      line-height: 1.6;
+    }
+    .warning {
+      color: red;
+      font-weight: bold;
+    }
+    .qr {
+      margin-top: 40px;
+    }
+    .cover {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
 
-  <audio src="jetbomb_sequence_with_voice.wav" autoplay></audio>
-</div>
+  <h1>JET-BOMB ALERT</h1>
 
-<style>
-.jetbomb-alert {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background-color: black;
-  animation: flash-bg 0.5s infinite;
-}
+  <p>
+    0500空降法已啟動。<br>
+    所有非戰術單位請立即撤離。<br><br>
+    <strong>你不是目標，但你正在被測試。</strong><br>
+    <em>見代號如見人。</em><br><br>
+    <span class="warning">⚠ 戰術壓力模組已鎖定你的視線。</span>
+  </p>
 
-@keyframes flash-bg {
-  0%   { background-color: #330000; }
-  50%  { background-color: #990000; }
-  100% { background-color: #330000; }
-}
-</style>
+  <div class="cover">
+    <!-- 封面圖佔位：可替換為你的封面圖 -->
+    <img src="cover-jetbomb.jpg" alt="JET-BOMB 封面" width="400">
+  </div>
+
+  <div class="qr">
+    <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://jetbomb2012.github.io/28825252&size=200x200" alt="QR Code to 28825252">
+    <p>掃描以進入主模組：28825252</p>
+  </div>
+
+  <audio autoplay>
+    <source src="jetbomb-alert.mp3" type="audio/mpeg">
+    您的瀏覽器不支援音訊播放。
+  </audio>
+
+</body>
+</html>
