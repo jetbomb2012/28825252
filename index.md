@@ -23,7 +23,7 @@
 
 <div class="image-row">
   <div class="module-block">
-    <img src="assets/images/angelababy_avatar.png" alt="Angelababy 戰地導引" class="module" onclick="document.getElementById('voice4').play()">
+    <img src="assets/images/angelababy_avatar.png" alt="特派員(燄影) 戰地導引" class="module" onclick="document.getElementById('voice4').play()">
     <p class="voice-hint">點擊聽命：0500空降已上線，掃描或死。</p>
     <audio id="voice4" src="assets/audio/angelababy_drop_command.mp3"></audio>
   </div>
@@ -93,3 +93,4 @@ img.module:hover {
 }
 
 </style>
+
