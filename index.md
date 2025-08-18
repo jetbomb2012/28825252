@@ -1,5 +1,6 @@
 <p class="tactical-header">星海爭霸0500戰術，聽命或被殺？</p>
-
+<p class="tactical-header">傑邦就是JET-BOMB</p>
+<p class="tactical-header">星海誰最能打, 是Serral？</p>
 <div class="image-row">
   <div class="module-block">
     <img src="assets/images/drop_tank.jpg" alt="Drop Tank" class="module" onclick="document.getElementById('voice1').play()">
@@ -90,4 +91,5 @@ img.module:hover {
     max-width: 80vw;
   }
 }
+
 </style>
