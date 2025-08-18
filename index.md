@@ -29,7 +29,7 @@
   </div>
   <div class="module-block">
     <a href="https://drive.google.com/file/d/1XOIP_45C8_SkxJdq6c9JZvI1b5V9PDK_/view?usp=sharing" target="_blank">
-      <img src="assets/images/drop_video_cover.jpg" alt="0500 Drop Video" class="module">
+      <img src="assets/images/drop_video_cover.png" alt="0500 Drop Video" class="module">
     </a>
     <p class="voice-hint">點擊進入：SC2_Terran_0500Drop_v1.mp4</p>
   </div>
@@ -93,4 +93,5 @@ img.module:hover {
 }
 
 </style>
+
 
