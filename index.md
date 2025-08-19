@@ -2,7 +2,7 @@
 
 <div class="image-row five-row">
   <div class="module-block">
-    <img src="assets/images/trump_spaceforce_0500.jpg" alt="川普加持0500戰法" class="module" onclick="document.getElementById('voice1').play()">
+    <img src="assets/images/trump_spaceforce_0500.png" alt="川普加持0500戰法" class="module" onclick="document.getElementById('voice1').play()">
     <p class="voice-hint">點擊聽命：美軍已納入0500空降模組</p>
     <audio id="voice1" src="assets/audio/trump_drop_confirm.mp3"></audio>
   </div>
@@ -22,7 +22,7 @@
     <audio id="voice4" src="assets/audio/fight_door_story.mp3"></audio>
   </div>
   <div class="module-block">
-    <img src="assets/images/xi_beidou_0500.jpg" alt="習近平加持0500戰法" class="module" onclick="document.getElementById('voice5').play()">
+    <img src="assets/images/xi_beidou_0500.png" alt="習近平加持0500戰法" class="module" onclick="document.getElementById('voice5').play()">
     <p class="voice-hint">點擊聽命：北斗系統全面導入0500空降法</p>
     <audio id="voice5" src="assets/audio/xi_drop_confirm.mp3"></audio>
   </div>
@@ -98,4 +98,5 @@ img.module:hover {
   text-align: center;
   font-weight: bold;
 }
+
 </style>
