@@ -1,5 +1,6 @@
-<p class="tactical-header">0500空降法：你不是在模仿，你是被研究</p>
-
+<p class="tactical-header">星海爭霸0500空降法：你不是在模仿，你是被研究</p>
+<p class="tactical-header">傑邦就是JET-BOMB</p>
+<p class="tactical-header">星海誰最能打, 是蟲王Serral?總有相見的那一天!</p>
 <div class="image-row five-row">
   <div class="module-block">
     <img src="assets/images/trump_spaceforce_0500.png" alt="川普加持0500戰法" class="module" onclick="document.getElementById('voice1').play()">
@@ -100,3 +101,4 @@ img.module:hover {
 }
 
 </style>
+
