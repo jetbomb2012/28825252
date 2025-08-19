@@ -32,19 +32,19 @@
 
 <div class="image-row three-row">
   <div class="module-block">
-    <a href="https://drive.google.com/file/d/1XOIP_45C8_SkxJdq6c9JZvI1b5V9PDK_/view?usp=sharing" target="_blank">
-      <img src="assets/images/drop_video_cover.png" alt="0500 Drop Video" class="module">
-    </a>
-    <p class="voice-hint">點擊進入：SC2_Terran_0500Drop_v1.mp4</p>
-  </div>
-  <div class="module-block">
-    <img src="assets/images/qr_drop.png" alt="QR Code" class="module">
-    <p class="voice-hint">掃描進入：0500空降模組</p>
-  </div>
-  <div class="module-block">
-    <img src="assets/images/angelababy_avatar.png" alt="特派員(燄影) 戰地導引" class="module" onclick="document.getElementById('voice6').play()">
+    <img src="assets/images/angelababy_avatar.png" alt="女特派員：燄影" class="module" onclick="document.getElementById('voice6').play()">
     <p class="voice-hint">點擊聽命：燄影已部署，媒體導向即將改寫</p>
     <audio id="voice6" src="assets/audio/angelababy_drop_command.mp3"></audio>
+  </div>
+  <div class="module-block">
+    <img src="assets/images/venusj_avatar.png" alt="主播：Venus J" class="module" onclick="document.getElementById('voice7').play()">
+    <p class="voice-hint">點擊聽命：Venus J 正在播報全球效法0500空降法</p>
+    <audio id="voice7" src="assets/audio/venusj_global_report.mp3"></audio>
+  </div>
+  <div class="module-block">
+    <img src="assets/images/leitin_avatar.png" alt="男特派員：雷廷" class="module" onclick="document.getElementById('voice8').play()">
+    <p class="voice-hint">點擊聽命：雷廷已部署，全球軍事模組正在重編</p>
+    <audio id="voice8" src="assets/audio/leitin_tactical_update.mp3"></audio>
   </div>
 </div>
 
