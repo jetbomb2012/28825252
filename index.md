@@ -132,6 +132,30 @@ img.module:hover { border-color: #ff0000; }
     <audio id="voice9" src="assets/audio/airstrike_alert_0500.mp3"></audio>
   </div>
 </div>
+<audio id="airstrike" src="assets/audio/airstrike_alert_0500.mp3" preload="auto"></audio>
+<script>
+  let triggered = false;
+
+  function unlockAudio() {
+    if (triggered) return;
+    const audio = document.getElementById("airstrike");
+    audio.play();
+    triggered = true;
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const audio = document.getElementById("airstrike");
+    audio.muted = true;
+    audio.play().then(() => {
+      audio.pause();
+      audio.muted = false;
+    });
+  });
+
+  window.addEventListener("scroll", unlockAudio);
+  window.addEventListener("click", unlockAudio);
+  window.addEventListener("touchstart", unlockAudio); // 手機支援
+</script>
 
 
 
