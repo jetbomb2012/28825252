@@ -116,3 +116,19 @@ img.module:hover {
 }
 </style>
 
+<section id="airstrike-auto" style="text-align:center; padding:40px; background-color:#000;">
+  <h2 style="color:#FF0000; font-size:2em; letter-spacing:2px;">0500 空襲警報已啟動</h2>
+  <img src="assets/images/airstrike_alert_0500.png" alt="Airstrike Alert" style="width:300px; margin-top:20px;">
+  <audio id="airstrike" src="assets/audio/airstrike_alert_0500.mp3" autoplay></audio>
+  <script>
+    window.onload = function() {
+      const audio = document.getElementById("airstrike");
+      audio.play();
+    };
+  </script>
+  <p style="color:#FFF; font-size:1.2em; margin-top:20px;">
+    此模組由 <strong>JET-BOMB</strong> 部署，無需點擊，即刻壓制。<br>
+    所有訪客皆進入心理壓力區域，無人倖免。
+  </p>
+</section>
+
