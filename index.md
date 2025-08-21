@@ -156,6 +156,27 @@ img.module:hover { border-color: #ff0000; }
   window.addEventListener("click", unlockAudio);
   window.addEventListener("touchstart", unlockAudio); // 手機支援
 </script>
+<audio id="venusJ_intro" src="assets/audio/venusj_intro_0500.mp3" preload="auto"></audio>
+<script>
+  let venusTriggered = false;
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const audio = document.getElementById("venusJ_intro");
+    audio.muted = true;
+    audio.play().then(() => {
+      audio.pause();
+      audio.muted = false;
+    });
+  });
+
+  window.addEventListener("scroll", function () {
+    if (!venusTriggered) {
+      const audio = document.getElementById("venusJ_intro");
+      audio.play();
+      venusTriggered = true;
+    }
+  });
+</script>
 
 
 
