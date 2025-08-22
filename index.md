@@ -158,9 +158,3 @@ img.module:hover { border-color: #ff0000; }
     <audio id="voice9" src="assets/audio/airstrike_alert_0500.mp3"></audio>
   </div>
 </div>
-
-
-
-
-
-
