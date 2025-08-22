@@ -51,9 +51,16 @@ img.module:hover { border-color: #ff0000; }
 }
 </style>
 
+<!-- 空襲警報模組：滾動觸發 -->
 <audio id="airstrike" src="assets/audio/airstrike_alert_0500.mp3" preload="auto"></audio>
 <script>
   let triggered = false;
+  function unlockAudio() {
+    if (triggered) return;
+    const audio = document.getElementById("airstrike");
+    audio.play();
+    triggered = true;
+  }
   document.addEventListener("DOMContentLoaded", function () {
     const audio = document.getElementById("airstrike");
     audio.muted = true;
@@ -62,19 +69,38 @@ img.module:hover { border-color: #ff0000; }
       audio.muted = false;
     });
   });
+  window.addEventListener("scroll", unlockAudio);
+  window.addEventListener("click", unlockAudio);
+  window.addEventListener("touchstart", unlockAudio);
+</script>
+
+<!-- Venus J 導引語音模組：滾動觸發 -->
+<audio id="venusJ_intro" src="assets/audio/venusj_intro_0500.mp3" preload="auto"></audio>
+<script>
+  let venusTriggered = false;
+  document.addEventListener("DOMContentLoaded", function () {
+    const audio = document.getElementById("venusJ_intro");
+    audio.muted = true;
+    audio.play().then(() => {
+      audio.pause();
+      audio.muted = false;
+    });
+  });
   window.addEventListener("scroll", function () {
-    if (!triggered) {
-      const audio = document.getElementById("airstrike");
+    if (!venusTriggered) {
+      const audio = document.getElementById("venusJ_intro");
       audio.play();
-      triggered = true;
+      venusTriggered = true;
     }
   });
 </script>
 
+<!-- 戰術標語 -->
 <p class="tactical-header">星海爭霸0500空降法：你不是在模仿，你是被研究</p>
 <p class="tactical-header">傑邦就是JET-BOMB</p>
 <p class="tactical-header">星海誰最能打, 是蟲王Serral?總有相見的那一天!</p>
 
+<!-- 五模組區塊 -->
 <div class="image-row five-row">
   <div class="module-block">
     <img src="assets/images/trump_spaceforce_0500.png" alt="川普加持0500戰法" class="module" onclick="document.getElementById('voice1').play()">
@@ -103,8 +129,8 @@ img.module:hover { border-color: #ff0000; }
   </div>
 </div>
 
+<!-- 媒體模組區塊 -->
 <p class="tactical-header">全球媒體模組：報導方式即將改寫</p>
-
 <div class="image-row three-row">
   <div class="module-block">
     <img src="assets/images/angelababy_avatar.png" alt="女特派員：燄影" class="module" onclick="document.getElementById('voice6').play()">
@@ -123,8 +149,8 @@ img.module:hover { border-color: #ff0000; }
   </div>
 </div>
 
+<!-- 空襲模組區塊 -->
 <p class="tactical-header">0500空降警報模組：不是通知，是壓制</p>
-
 <div class="image-row one-row">
   <div class="module-block">
     <img src="assets/images/airstrike_alert_0500.png" alt="空襲警報0500" class="module" onclick="document.getElementById('voice9').play()">
@@ -132,51 +158,7 @@ img.module:hover { border-color: #ff0000; }
     <audio id="voice9" src="assets/audio/airstrike_alert_0500.mp3"></audio>
   </div>
 </div>
-<audio id="airstrike" src="assets/audio/airstrike_alert_0500.mp3" preload="auto"></audio>
-<script>
-  let triggered = false;
 
-  function unlockAudio() {
-    if (triggered) return;
-    const audio = document.getElementById("airstrike");
-    audio.play();
-    triggered = true;
-  }
-
-  document.addEventListener("DOMContentLoaded", function () {
-    const audio = document.getElementById("airstrike");
-    audio.muted = true;
-    audio.play().then(() => {
-      audio.pause();
-      audio.muted = false;
-    });
-  });
-
-  window.addEventListener("scroll", unlockAudio);
-  window.addEventListener("click", unlockAudio);
-  window.addEventListener("touchstart", unlockAudio); // 手機支援
-</script>
-<audio id="venusJ_intro" src="assets/audio/venusj_intro_0500.mp3" preload="auto"></audio>
-<script>
-  let venusTriggered = false;
-
-  document.addEventListener("DOMContentLoaded", function () {
-    const audio = document.getElementById("venusJ_intro");
-    audio.muted = true;
-    audio.play().then(() => {
-      audio.pause();
-      audio.muted = false;
-    });
-  });
-
-  window.addEventListener("scroll", function () {
-    if (!venusTriggered) {
-      const audio = document.getElementById("venusJ_intro");
-      audio.play();
-      venusTriggered = true;
-    }
-  });
-</script>
 
 
 
